@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Riad Nour</title>
+  <link rel="stylesheet" href="contact.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Riad Nour" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Herbergement.html">Hébergement</a></li>
+                <li><a href="Restauration.html">Restauration</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Célébrités.html">Célébrités</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
+  <div class="container">
+    <h1>Besoin d’informations ou souhaitez-vous réserver ?</h1>
+
+    <div class="forms-container">
+    
+      <section class="form-section" id="reservation-form">
+        <h2>Réserver une chambre</h2>
+        <form id="reservation">
+          <input type="text" name="nom" placeholder="Votre nom" required />
+          <input type="email" name="email" placeholder="Votre e-mail" required />
+          <input type="date" name="date_arrivee" required />
+          <input type="date" name="date_depart" required />
+          <input type="number" name="personnes" placeholder="Nombre de personnes" required />
+          <textarea name="message" placeholder="Message (facultatif)"></textarea>
+          <button type="submit">Réserver</button>
+        </form>
+      </section>
+
+     
+      <section class="form-section" id="contact-form">
+        <h2>Demander des informations</h2>
+        <form id="contact">
+          <input type="text" name="nom" placeholder="Votre nom" required />
+          <input type="email" name="email" placeholder="Votre e-mail" required />
+          <textarea name="message" placeholder="Votre message..." required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+        <p id="confirmation" class="hidden">Merci pour votre message !</p>
+      </section>
+    </div>
+
+    <p class="footer-msg">Nous vous répondrons dans les plus brefs délais. À très vite au Riad Nour !</p>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+<footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Riad Nour, Tous droits réservés.</p>
+        </div>
+    </footer>
+</html>
