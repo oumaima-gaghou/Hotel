@@ -8,79 +8,62 @@
 html, body {
   height: 100%;
   font-family: 'Segoe UI', sans-serif;
-  color: white;
-  background: url('photo.jpg') no-repeat center center fixed;
+  color:#8B0000;
+  background: url('/img/fond.jpg') no-repeat center center fixed;
   background-size: cover;
 
 }
 
 
 header {
-  background-color: #000000;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-bottom: 4px solid #e1c763;
-}
-
-header .logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-header .logo img {
-  width: 120px;
-  height: auto;
-  margin-bottom: 10px;
+    background-color: #8B0000;;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #e1c763;
 }
 
 header .logo h1 {
-  margin: 5px 0 0;
-  font-size: 1.5em;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Arial', sans-serif;
 }
 
 header .logo p {
-  margin: 5px 0;
-  font-style: italic;
-  font-size: 0.9em;
+    margin: 5px;
+    font-style: italic;
 }
-ba
+
+header .logo img {
+    width: 220px;
+    height: auto;
+    margin-right: 10px;
+}
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
 }
 
 nav ul li {
-  display: block;
-  margin: 10px 0;
+    display: inline-block;
+    margin-right: 15px;
 }
 
 nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1em;
-  padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px;
 }
 
 nav ul li a:hover {
-  background-color: #e1c763;
-  border-radius: 5px;
+    background-color: #e1c763;
+    border-radius: 5px;
 }
 
 
-.container {
-  background: rgba(0, 0, 0, 0.6); 
-  min-height:  100vh;
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 
 h1 {
@@ -88,7 +71,17 @@ h1 {
   margin-bottom: 30px;
 }
 
-
+.container {
+  background: transparent; 
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family:'Scheherazade New', serif ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 
 .forms-container {
@@ -103,9 +96,10 @@ h1 {
   max-width: 100%; 
   box-sizing: border-box;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.6); 
+  background: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(6px); 
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   overflow: hidden; 
 }
@@ -203,7 +197,7 @@ footer .footer-content p {
   }
 }
 footer {
-    background-color: #000000;
+    background-color:#8B0000;
     color: white;
     padding: 20px;
     text-align: center;
@@ -220,7 +214,7 @@ footer .footer-content p {
 }
 
 .contact-info a {
-    color:rgb(40, 161, 209);  
+    color:rgb(40, 161, 209);
     text-decoration: none;
     text-decoration: underline;
 }

@@ -203,7 +203,7 @@ body, html {
 }
 
 footer {
-    background-color: #000000;
+    background-color:#8B0000;
     color: white;
     padding: 20px;
     text-align: center;
@@ -220,7 +220,7 @@ footer .footer-content p {
 }
 
 .contact-info a {
-    color:rgb(40, 161, 209);  
+    color:rgb(40, 161, 209);
     text-decoration: none;
     text-decoration: underline;
 }
