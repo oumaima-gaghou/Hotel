@@ -1,0 +1,203 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #8B0000;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #e1c763;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Arial', sans-serif;
+}
+
+header .logo p {
+    margin: 5px;
+    font-style: italic;
+}
+
+header .logo img {
+    width: 220px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px;
+}
+
+nav ul li a:hover {
+    background-color: #e1c763;
+    border-radius: 5px;
+}
+
+#services {
+  background-color: white;
+  color: #e1c763;
+  padding: 40px 20px;
+}
+
+#services h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top:0%;
+  font-size: 2em;
+}
+
+#video-section {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#video-section h2 {
+  color: #8B0000;
+  margin-bottom: 30px;
+}
+
+#myVideo {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  height: auto;
+}
+
+#services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.service {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  min-height: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  backdrop-filter: blur(1px);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.service:hover {
+  transform: translateY(-6px);
+}
+
+.service h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.service p {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.service ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+footer {
+  border-top: 5px solid #e1c763;
+  background-color: #8B0000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 4px 0;
+  font-size: 1em;
+}
+
+.contact-info strong {
+  color: #e1c763;
+}
+
+.contact-info a {
+  color: rgb(40, 161, 209);
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    header .logo h1 {
+        font-size: 1.8em;
+    }
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 8px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.1em;
+    }
+
+    #services-list {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .service {
+    max-width: 90%;
+  }
+
+  video {
+  max-width: 100%;
+  height: auto;
+}
+
+  footer .footer-content {
+        text-align: center;
+    } }

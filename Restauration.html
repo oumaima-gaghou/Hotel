@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restauration-Riad Nour</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo2.png" alt="Logo Riad Nour" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Hébergement.html">Hébergement</a></li>
+                <li><a href="Restauration.html">Restauration</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Célébrités.html">Célébrités</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Notre Menu</h2>
+            <div class="tabs">
+                <button class="tab-button" onclick="showTab('menu-content')">Menu</button>
+                <button class="tab-button" onclick="showTab('entrées')">Entrées</button>
+                <button class="tab-button" onclick="showTab('plats')">Plats Principaux</button>
+                <button class="tab-button" onclick="showTab('desserts')">Desserts</button>
+                <button class="tab-button" onclick="showTab('boissons')">Boissons</button>
+            </div>
+
+            <div id="menu-content" class="tab-content active">
+                <p class="accroche-text"><b>Le petit déjeuner est inclus dans nos tarifs,</b> il se compose de café, thé ou chocolat chaud, avec viennoiseries, crêpes marocaines, croissant, pain au chocolat, pancake, jus d'orange frais, miel et confitures maison. <b>Le déjeuner et dîner</b> vous seront préparés par nos cuisinières à votre demande, (entrées à partir de 10 € / plats à partir de 16 € / desserts à partir de 4.50 € / boissons à partir de 3 €)</p>
+&nbsp;
+                <div class="accroche-container">
+                    <img src="img/accroche.jpg" alt="Image d'accroche" class="accroche-img">
+                    <p class="accroche-text">
+                    <b>Savourez les meilleures spécialités franco-marocaines, préparées avec passion et authenticité !</b>
+                    </p>
+                </div>
+            </div>
+
+            <div id="entrées" class="tab-content">
+                <h3>Entrées</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="img/entree1.JPG" alt="Filet de daurade citronné">
+                        <div class="card-content">
+                            <p class="title">Filet de daurade citronné</p>
+                            <p class="description">Un filet de daurade frais, parfumé au citron et aux herbes, idéal pour débuter le repas.</p>
+                            <p class="price">Prix : 15 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/entree4.jpg" alt="Brick de viande hâchée à la marocaine">
+                        <div class="card-content">
+                            <p class="title">Brick de viande hâchée à la marocaine</p>
+                            <p class="description">Une pâte fine et croustillante enroulant une farce de viande épicée, parfaite pour une entrée légère et gourmande.</p>
+                            <p class="price">Prix : 11 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/entree2.JPG" alt="Pastilla au poulet">
+                        <div class="card-content">
+                            <p class="title">Pastilla au poulet</p>
+                            <p class="description">Une délicieuse pastilla farcie au poulet, avec une touche sucrée-salée d'amandes et de cannelle.</p>
+                            <p class="price">Prix : 14 €</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/entree6.jpg" alt="Soupe Harira">
+                        <div class="card-content">
+                            <p class="title">Soupe Harira</p>
+                            <p class="description">Soupe traditionnelle marocaine à base de tomates, lentilles, pois chiches, coriandre et viande.</p>
+                            <p class="price">Prix : 12 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/entree3.jpg" alt="Grillade de légumes">
+                        <div class="card-content">
+                            <p class="title">Grillade de légumes</p>
+                            <p class="description">Des légumes grillés, assaisonnés à la marocaine, pour un goût authentique et savoureux.</p>
+                            <p class="price">Prix : 13 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/entree8.JPG" alt="Plateau de Fromages">
+                        <div class="card-content">
+                            <p class="title">Plateau de Fromages</p>
+                            <p class="description"> Sélection de fromages français accompagnés de fruits secs (noix, figues, amandes) et de fruits frais de saison.</p>
+                            <p class="price">Prix : 18 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/entree7.JPG" alt="Salade de Homard Marinée">
+                        <div class="card-content">
+                            <p class="title">Salade de Homard Marinée</p>
+                            <p class="description">  Homard frais mariné dans une vinaigrette d’agrumes, servi sur un lit d'avocat et de mangue. Une entrée raffinée alliant fraîcheur et gourmandise.</p>
+                            <p class="price">Prix : 25 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/entree5.jpg" alt="Salade de tomates">
+                        <div class="card-content">
+                            <p class="title">Salade de tomates</p>
+                            <p class="description"> Tomates fraîches, assaisonnées d'huile d'olive, de coriandre, de basilic. Une entrée légère, rafraîchissante et pleine de saveurs.</p>
+                            <p class="price">Prix : 10 €</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="plats" class="tab-content">
+                <h3>Plats Principaux</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="img/plat11.JPG" alt="Tajine de kefta">
+                        <div class="card-content">
+                            <p class="title">Tajine de kefta</p>
+                            <p class="description">Boulettes de viande hachée mijotées dans une sauce tomate parfumée, souvent servies avec des œufs.</p>
+                            <p class="price">Prix : 18 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/plat2.JPG" alt="Tajine d'agneau aux pruneaux">
+                        <div class="card-content">
+                            <p class="title">Tajine d'agneau aux pruneaux</p>
+                            <p class="description">Agneau tendre cuit lentement avec des pruneaux, des amandes et une touche de cannelle.</p>
+                            <p class="price">Prix : 22 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/plat3.JPG" alt="Tajine de légumes">
+                        <div class="card-content">
+                            <p class="title">Tajine de légumes</p>
+                            <p class="description">Mélange coloré de légumes frais cuits à l'étouffée dans des épices marocaines douces.</p>
+                            <p class="price">Prix : 16 €</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/plat5.JPG" alt="Couscous">
+                        <div class="card-content">
+                            <p class="title">Couscous</p>
+                            <p class="description">Un mariage de viandes grillées et de couscous moelleux, relevé par des épices marocaines authentiques.</p>
+                            <p class="price">Prix : 24 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/plat4.JPG" alt="Grillade de viandes">
+                        <div class="card-content">
+                            <p class="title">Grillade de viandes</p>
+                            <p class="description">Assortiment de viandes grillées aux épices du terroir, servi avec légumes ou semoule.</p>
+                            <p class="price">Prix : 28 €</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/plat7.jpg" alt="Filet de bœuf">
+                        <div class="card-content">
+                            <p class="title">Filet de bœuf</p>
+                            <p class="description">Tendre filet de bœuf grillé, accompagné de pommes de terre grenaille dorées et servi sur un lit de légumes fondants, le tout nappé d'une sauce au poivre maison.</p>
+                            <p class="price">Prix : 21 €</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/plat8.jpg" alt="Escalope Milanaise">
+                        <div class="card-content">
+                            <p class="title">Escalope Milanaise</p>
+                            <p class="description">Une escalope de veau panée et dorée, servie avec une sauce tomate maison, accompagnée de pâtes fraîches ou d'une salade croquante.</p>
+                            <p class="price">Prix : 16 €</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/plat6.jpg" alt="Moules-frites">
+                        <div class="card-content">
+                            <p class="title">Moules-frites</p>
+                            <p class="description"> Moules fraîches mijotées dans une sauce légèrement épicée, accompagnées de frites dorées à point. Une fusion entre tradition européenne et saveurs marocaines.</p>
+                            <p class="price">Prix : 17 €</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="desserts" class="tab-content">
+                <h3>Desserts</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="img/dessert7.jpg" alt="Viennoiserie française">
+                        <div class="card-content">
+                            <p class="title">Viennoiserie française</p>
+                            <p class="description">Croissant ou pain au chocolat tout juste sortis du four, parfaits pour accompagner votre petit déjeuner ou pour une petite faim à tout moment de la journée. (Inclus dans nos tarifs). (Par 4).</p>
+                            <p class="price">Hors petit déjeuner : 6.50 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/dessert6.jpg" alt="Pancake avec ses fruits">
+                        <div class="card-content">
+                            <p class="title">Pancake avec ses fruits</p>
+                            <p class="description">Pancake moelleux servi avec un assortiment de fruits frais, nappé de miel local et saupoudré de cannelle et sucre glace. Profitez-en gratuitement au petit déjeuner (inclus dans nos tarifs). (par 4).</p>
+                            <p class="price">Hors petit déjeuner : 7 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/dessert3.jpg" alt="Baklawa marocain">
+                        <div class="card-content">
+                            <p class="title">Baklawa marocain</p>
+                            <p class="description">Feuilles de pâte fines garnies de fruits secs (Amande) et nappées de miel pour une douceur irrésistible. Profitez-en gratuitement au petit déjeuner (inclus dans nos tarifs). (par 3).</p>
+                            <p class="price">Hors petit déjeuner : 6 €</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/dessert2.jpg" alt="Chebakia">
+                        <div class="card-content">
+                            <p class="title">Chebakia</p>
+                            <p class="description">Pâtisserie traditionnelle au sésame, enrobée de miel parfumé à la fleur d’oranger. Profitez-en gratuitement au petit déjeuner (inclus dans nos tarifs). (par 3).</p>
+                            <p class="price">Hors petit déjeuner : 7.50 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/dessert4.jpg" alt="Ghriba">
+                        <div class="card-content">
+                            <p class="title">Ghriba</p>
+                            <p class="description">Biscuit fondant à base d’amandes ou de noix de coco, emblématique de la pâtisserie marocaine. Profitez-en gratuitement au petit déjeuner (inclus dans nos tarifs). (Par 3).</p>
+                            <p class="price">Hors petit déjeuner : 4.50 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/dessert1.JPG" alt="Mousse de mascarpone et coulis de fruits rouges">
+                        <div class="card-content">
+                            <p class="title">Mousse de mascarpone et coulis de fruits rouges</p>
+                            <p class="description">Une mousse légère et onctueuse accompagnée d’un coulis de fruits rouges acidulé.</p>
+                            <p class="price">Prix : 8 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/dessert8.jpg" alt="Assortiment de sorbets maison">
+                        <div class="card-content">
+                            <p class="title">Assortiment de sorbets maison</p>
+                            <p class="description"> Savourez un assortiment rafraîchissant de sorbets artisanaux : citron, pastèque, fruits rouges et fruits exotiques. Parfait pour terminer votre repas en légèreté.</p>
+                            <p class="price">Prix : 9 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/dessert5.JPG" alt="Tarte à la Figue">
+                        <div class="card-content">
+                            <p class="title">Tarte à la Figue</p>
+                            <p class="description">Une création fusion : pâte sablée française garnie de figues caramélisées au miel et d’un soupçon de fleur d’oranger, servie tiède.</p>
+                            <p class="price">Prix : 8.50 €</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="boissons" class="tab-content">
+                <h3>Boissons</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="img/boissons1.jpg" alt="Thé à la menthe">
+                        <div class="card-content">
+                            <p class="title">Thé à la menthe</p>
+                            <p class="description">Boisson emblématique du Maroc, servie chaude et sucrée, à base de thé vert et de feuilles de menthe fraîche. Profitez-en gratuitement au petit déjeuner (inclus dans nos tarifs).</p>
+                            <p class="price">Hors petit déjeuner : 3 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/boissons22.JPG" alt="Café marocain">
+                        <div class="card-content">
+                            <p class="title">Café marocain</p>
+                            <p class="description">Café corsé aux arômes épicés, souvent parfumé à la cannelle ou à la cardamome pour une touche orientale. Profitez-en gratuitement au petit déjeuner (inclus dans nos tarifs).</p>
+                            <p class="price">Hors petit déjeuner : 3.50 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/boisson3.JPG" alt="Chocolat Chaud Maison">
+                        <div class="card-content">
+                            <p class="title">Chocolat Chaud Maison</p>
+                            <p class="description"> Une boisson onctueuse à base de chocolat noir fondu et de lait entier, légèrement sucrée, parfaite pour accompagner vos matinées fraîches ou vos envies de douceur. Profitez-en gratuitement au petit déjeuner (inclus dans nos tarifs).</p>
+                            <p class="price">Hors petit déjeuner : 4.50 € </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/jus.jpg" alt="Jus d'orange frais">
+                        <div class="card-content">
+                            <p class="title">Jus d'orange frais</p>
+                            <p class="description">Pressé à la demande, ce jus d’orange 100% naturel est rafraîchissant et riche en vitamines. Profitez-en gratuitement au petit déjeuner (inclus dans nos tarifs).</p>
+                            <p class="price">Hors petit déjeuner : 6 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/citronnade.jpg" alt="Citronnade">
+                        <div class="card-content">
+                            <p class="title">Citronnade</p>
+                            <p class="description">Boisson fraîche et désaltérante à base de citron pressé, légèrement sucrée et servie bien froide. Idéale pour se rafraîchir à tout moment de la journée.</p>
+                            <p class="price">Prix : 7 €</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/boisson.jpg" alt="Thé Frais Maison">
+                        <div class="card-content">
+                            <p class="title">Thé Frais Maison</p>
+                            <p class="description">Thé vert infusé, servi bien frais avec des feuilles de menthe, une pointe de sucre, saveur pêche ou citron. Parfait pour se rafraîchir tout en dégustant une boisson aux saveurs marocaines authentiques.</p>
+                            <p class="price">Prix : 8 €</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/boisson4.jpg" alt="Limonade Maison">
+                        <div class="card-content">
+                            <p class="title">Limonade Maison</p>
+                            <p class="description"> Une boisson faite maison, rafraîchissante à base d’eau pétillante. Idéale pour se désaltérer naturellement à tout moment de la journée.</p>
+                            <p class="price">Prix : 6 €</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/boisson6.JPG" alt="Boissons en Canette">
+                        <div class="card-content">
+                            <p class="title">Boissons en Canette</p>
+                            <p class="description">Un large choix de boissons fraîches : Coca-Cola, Ice Tea, Fanta, Orangina, 7Up, Sprite. Servies bien fraîches, idéales pour accompagner votre repas ou se rafraîchir à tout moment.</p>
+                            <p class="price">Prix : 3.50 €</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="footer-content">
+        <div class="contact-info">
+            <p><strong>Adresse :</strong> 123 Rue de Marrakech, 40000 Marrakech, Maroc</p>
+            <p><strong>Téléphone :</strong>+212 5 24 00 00 00</p>
+            <p><strong>Email :</strong> <a href="mailto:contact@riadnour.com">contact@riadnour.com</a></p>
+&nbsp;
+            <p>&copy; 2025 Riad Nour, Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="script1.js"></script>
+</body>
+</html>

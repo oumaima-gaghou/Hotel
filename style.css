@@ -12,7 +12,7 @@ body, html {
 }
 
 
-.full-screen-gallery {
+.galerie {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;  
@@ -20,7 +20,7 @@ body, html {
   position: relative; 
 }
 
-.gallery-item {
+.image {
   flex: 1;
   background-size: cover;
   background-position: center;
@@ -30,13 +30,13 @@ body, html {
   height: 100vh; 
 }
 
-.gallery-item:hover {
+.image:hover {
   transform: scale(1.03);
   z-index: 2;
 }
 
 
-.overlay {
+.position {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.55);
@@ -50,7 +50,7 @@ body, html {
   text-align: center;
 }
 
-.gallery-item:hover .overlay {
+.image:hover .position {
   opacity: 1;
 }
 
@@ -60,7 +60,7 @@ body, html {
   transition: transform 0.3s;
 }
 
-.gallery-item:hover .logo {
+.image:hover .logo {
   transform: scale(1.2); 
 }
 
@@ -93,12 +93,12 @@ body, html {
 
 
 @media (max-width: 768px) {
-  .full-screen-gallery {
+  .galerie {
     flex-direction: column;
 
   }
 
-  .gallery-item {
+  .image {
     flex: 1 0 100%;  
     height: 50vh;  
       
@@ -137,7 +137,7 @@ body, html {
 
 
 @media (min-width: 769px) {
-  .gallery-item {
+  .image {
     flex: 1 0 20%; 
     height: 100vh;  
   }
@@ -203,6 +203,7 @@ body, html {
 }
 
 footer {
+    border-top: 5px solid #e1c763;
     background-color:#8B0000;
     color: white;
     padding: 20px;
@@ -220,7 +221,7 @@ footer .footer-content p {
 }
 
 .contact-info a {
-    color:rgb(40, 161, 209);
+    color:rgb(40, 161, 209);  
     text-decoration: none;
     text-decoration: underline;
 }
