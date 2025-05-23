@@ -9,7 +9,7 @@ html, body {
   height: 100%;
   font-family: 'Segoe UI', sans-serif;
   color:#8B0000;
-  background: url('/img/fond.jpg') no-repeat center center fixed;
+  background: url('./img/fond.jpg') no-repeat center center fixed;
   background-size: cover;
 
 }
