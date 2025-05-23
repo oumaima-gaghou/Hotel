@@ -201,6 +201,7 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+    border-top: 5px solid #e1c763;
 }
 
 footer .footer-content p {
